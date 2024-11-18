@@ -1,0 +1,40 @@
+.inicio {
+  height: 15vh;
+  background: linear-gradient(to right, #001B2F, #005695);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+  padding: 1.3rem;
+}
+
+.livro {
+  height: 13vh;
+  margin-bottom: 2rem;
+}
+
+.lista {
+  display: contents;
+}
+
+.titulo {
+  font-size: 27px;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+}
+
+.box2 {
+  display: flex;
+}
+
+.input {
+  height: 5vh;
+  border-radius: 20px;
+  border: solid 2px white;
+  width: 18vw;
+  background-color: #005695;
+}/*# sourceMappingURL=header.module.css.map */
