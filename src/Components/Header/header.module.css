@@ -37,4 +37,16 @@
   border: solid 2px white;
   width: 18vw;
   background-color: #005695;
+}
+
+.estudos {
+  width: 100%;
+  height: 65vh;
+}
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  color: white;
 }/*# sourceMappingURL=header.module.css.map */
