@@ -11,7 +11,11 @@
 
 .livro{
     height: 13vh;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 
 .lista{
@@ -27,16 +31,37 @@
     align-items: center;
 }
 
-.box2{
-    display: flex;
-}
+.box2 {
+    width: 30%;
+  
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
+  
+    .link {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .listas {
+        color: white;
+    }
+  }
 
 .input{
-    height: 5vh;
     border-radius: 20px;
-    border: solid 2px white;
     width: 18vw;
     background-color: #005695;
+    border: none;
+    height: 5vh;
+  
+    &::placeholder {
+    color: #fff;
+    font-size: 15px;
+    }
 }
 
 .estudos {
