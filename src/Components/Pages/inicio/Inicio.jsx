@@ -1,7 +1,9 @@
+import S from "./inicio.module.scss"
+
 function Inicio() {
     return(
         <>
-        olá sou inicio
+        
         </>
     )
 }

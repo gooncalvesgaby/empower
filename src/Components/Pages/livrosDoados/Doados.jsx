@@ -1,7 +1,6 @@
 function Doados() {
     return(
         <>
-        olá sou doados
         </>
     )
 }

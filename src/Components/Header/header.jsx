@@ -5,6 +5,7 @@ import QueroDoar from '../Pages/queroDoar/Doar'
 import S from "./header.module.scss"
 import Livro from "./livro.png"
 import Estudo from "./estudo.png"
+import Lupa from "./lupa.png"
 
 function Header() {
     return(
@@ -35,8 +36,9 @@ function Header() {
                             </li>
                         </ul>
                     </nav>
-                    <section>
+                    <section className={S.search}>
                         <input className={S.input} type="text" placeholder="O que você procura?" />
+                        <img className={S.lupa} src={Lupa} alt="imagem de lupa" />
                     </section>
                 </section>
                 <aside>

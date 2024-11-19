@@ -1,7 +1,6 @@
 function Doar() {
     return(
         <>
-        olá sou doar
         </>
     )
 }
