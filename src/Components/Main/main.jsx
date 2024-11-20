@@ -9,8 +9,10 @@ import Imagem4 from "./card4.png"
 function Main() {
     return(
         <main>
-            <h1 className={S.titulo}>Por que devo doar?</h1>
-            <div className={S.myCard}>
+            <div>
+                <p className={S.titulo}>Por que devo doar?</p>
+            </div>
+            <section className={S.myCard}>
                 <Card
                 image={Imagem1}
                 title="Oferece livros a quem nao tem acesso,
@@ -31,7 +33,7 @@ function Main() {
                 title="Garante que todo, independentemente de sua
                 condição, tenham oportunidades de aprendizado"
                 />
-            </div>
+            </section>
         </main>
     )
 }
