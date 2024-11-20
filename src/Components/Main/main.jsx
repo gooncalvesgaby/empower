@@ -8,29 +8,31 @@ import Imagem4 from "./card4.png"
 
 function Main() {
     return(
-        <Main>
+        <main>
             <h1 className={S.titulo}>Por que devo doar?</h1>
-            <Card
-            image={Imagem1}
-            title="Oferece livros a quem nao tem acesso,
-            ajudando a reduzir a exclusão social"
-            />
-            <Card
-            image={Imagem2}
-            title="Estimula o hábito da leitura
-            e o aprendizado contínuo."
-            />
-            <Card
-            image={Imagem3}
-            title="Fornece conhecimento e inspiração, permitindo
-            que individuos transformem suas vidas."
-            />
-            <Card
-            image={Imagem4}
-            title="Garante que todo, independentemente de sua
-            condição, tenham oportunidades de aprendizado"
-            />
-        </Main>
+            <div className={S.myCard}>
+                <Card
+                image={Imagem1}
+                title="Oferece livros a quem nao tem acesso,
+                ajudando a reduzir a exclusão social"
+                />
+                <Card
+                image={Imagem2}
+                title="Estimula o hábito da leitura
+                e o aprendizado contínuo."
+                />
+                <Card
+                image={Imagem3}
+                title="Fornece conhecimento e inspiração, permitindo
+                que individuos transformem suas vidas."
+                />
+                <Card
+                image={Imagem4}
+                title="Garante que todo, independentemente de sua
+                condição, tenham oportunidades de aprendizado"
+                />
+            </div>
+        </main>
     )
 }
 
