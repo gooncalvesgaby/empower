@@ -41,12 +41,6 @@ function Header() {
                         <img className={S.lupa} src={Lupa} alt="imagem de lupa" />
                     </section>
                 </section>
-                <aside>
-                    <img className={S.estudos} src={Estudo} alt="livros" />
-                    <h2>VENHA FAZER PARTE <br />
-                    DA MAIOR REDE DE <br />
-                    DOAÇÃO</h2>
-                </aside>
             </header>
             <Routes>
                 <Route path="/" element={<Inicio />} />
