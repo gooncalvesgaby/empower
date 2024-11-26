@@ -1,0 +1,32 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.3rem;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.infos {
+    border: solid 2px #005695;
+    width: 15vw;
+    border-radius: 10px;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 40vh;
+}
+
+.protago {
+    width: 6rem;
+}
+
+.conteudo {
+    height: 70vh;
+}
