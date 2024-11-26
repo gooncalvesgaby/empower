@@ -4,7 +4,6 @@ import LivrosDoados from '../Pages/livrosDoados/Doados'
 import QueroDoar from '../Pages/queroDoar/Doar'
 import S from "./header.module.scss"
 import Livro from "./livro.png"
-import Estudo from "./estudo.png"
 import Lupa from "./lupa.png"
 
 function Header() {

@@ -1,19 +1,20 @@
 import S from "./inicio.module.scss"
 import Card from "../../Card/card"
-import Imagem1 from "../../Main/Card1.png"
-import Imagem2 from "../../Main/Card2.png"
-import Imagem3 from "../../Main/Card3.png"
-import Imagem4 from "../../Main/Card4.png"
+import Imagem1 from "./card1.png"
+import Imagem2 from "./card2.png"
+import Imagem3 from "./card3.png"
+import Imagem4 from "./card4.png"
+import Estudo from "./estudo.png"
 
 function Inicio() {
     return(
         <>
-        <main>
-                <aside>
-                    <h2>VENHA FAZER PARTE <br />
-                    DA MAIOR REDE DE <br />
-                    DOAÇÃO</h2>
-                </aside>
+            <div>
+                <img className={S.estudos} src={Estudo} alt="imagem de livro" />
+                <h2>VENHA FAZER PARTE <br />
+                DA MAIOR REDE DE <br />
+                DOAÇÃO</h2>
+            </div>
             <div>
                 <p className={S.titulo}>Por que devo doar?</p>
             </div>
@@ -39,7 +40,6 @@ function Inicio() {
                 condição, tenham oportunidades de aprendizado"
                 />
             </section>
-        </main>
         </>
     )
 }
