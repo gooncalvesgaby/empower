@@ -12,7 +12,7 @@ function Footer() {
                 <div>
                     <p>4002-8922</p>
                 </div>
-                <div>
+                <nav>
                     <i>
                         <img className={S.icons} src={Facebook} alt="imagem do fb" />
                     </i>
@@ -28,7 +28,7 @@ function Footer() {
                     <i>
                         <img className={S.icons} src={Instagram} alt="imagem do insta" />
                     </i>
-                </div>
+                </nav>
             </section>
             <footer className={S.myFooter}>
                 <h5 className={S.texto}>Layout desenvolvido pela Vai

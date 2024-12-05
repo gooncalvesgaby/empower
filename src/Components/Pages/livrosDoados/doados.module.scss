@@ -30,3 +30,27 @@ h1 {
 .conteudo {
     height: 70vh;
 }
+
+@media(max-width: 1000px){
+    .conteudo {
+        justify-content: space-around;
+    }
+
+    .infos {
+        width: 200px;
+        height: 230px;
+    }
+}
+
+@media(max-width: 520px){
+    .infos {
+        flex-wrap: wrap;
+        gap: 10px;
+        height: auto;
+    }
+
+    .conteudo {
+        height: auto;
+        padding-bottom: 20px;
+    }
+}

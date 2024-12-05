@@ -32,4 +32,19 @@ i {
   color: white;
   font-size: 15px;
   font-weight: 100;
+}
+
+@media (max-width: 1000px) {
+  .boxsection nav {
+    width: 220px;
+  }
+}
+@media (max-width: 479px) {
+  .boxsection {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .myFooter h5 {
+    text-align: center;
+  }
 }/*# sourceMappingURL=footer.module.css.map */
