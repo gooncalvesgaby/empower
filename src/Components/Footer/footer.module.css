@@ -1,0 +1,35 @@
+.boxsection {
+  display: flex;
+  justify-content: space-between;
+  background-color: #005695;
+  height: 10vh;
+  align-items: center;
+  padding: 3rem;
+}
+
+.icons {
+  width: 2rem;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+}
+
+i {
+  margin: 0.5rem;
+}
+
+.myFooter {
+  height: 10vh;
+  background-color: #232020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto {
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}/*# sourceMappingURL=footer.module.css.map */

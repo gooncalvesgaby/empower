@@ -1,0 +1,57 @@
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.quest {
+  border: solid 2px #005695;
+  width: 30vw;
+  height: 80vh;
+  border-radius: 10px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.quest input::-moz-placeholder {
+  color: #000;
+  opacity: 0.8;
+}
+
+.quest input::placeholder {
+  color: #000;
+  opacity: 0.8;
+}
+
+.title {
+  width: 15rem;
+  margin-top: 2rem;
+}
+
+input {
+  width: 20vw;
+  height: 6vh;
+  border-radius: 8px;
+  border: solid 2px #005695;
+  padding: 7px;
+}
+
+button {
+  width: 13vw;
+  height: 6vh;
+  border-radius: 7px;
+  background-color: #005695;
+  color: white;
+  border: none;
+}/*# sourceMappingURL=doar.module.css.map */

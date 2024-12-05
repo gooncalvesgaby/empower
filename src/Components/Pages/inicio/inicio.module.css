@@ -1,1 +1,22 @@
-/*# sourceMappingURL=inicio.module.css.map */
+.titulo {
+  color: #005695;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+
+.myCard {
+  display: flex;
+  justify-content: center;
+  margin-right: 3rem;
+}
+
+title {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.estudos {
+  width: 100%;
+  height: 70vh;
+}/*# sourceMappingURL=inicio.module.css.map */
